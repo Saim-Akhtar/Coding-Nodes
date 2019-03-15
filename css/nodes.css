@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box !important;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+}
+.dropdown_main{
+    position: relative;
+}
+.dropdown-toggle{
+    cursor: default;
+}
+.dropdown_main:hover .dropdown-menu{
+    display: block;
+    height: 150px;
+}
+.dropdown-menu{
+    position: absolute;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+}
+/* .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   } */
+.first_slide{
+    height: 700px;
+    background-image: url('../images/coding1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second_slide{
+    height: 700px;
+    background-image: url('../images/coding2.jpg');
+    
+    background-size: cover;
+}
+.slider_icon{
+    height: 40px;
+    width: 40px !important;
+}
+.fas{
+    font-size: 26px;
+    color: white;
+}
+.dropdown-menu-arrow {
+    top: -25px;
+    left: 50%;
+    position: relative;
+  }
+  .dropdown-menu-arrow:before,
+  .dropdown-menu-arrow:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 7px 8px;
+    border-style: solid;
+    border-color: transparent;
+    z-index: 1001;
+  }
+  .dropdown-menu-arrow:after {
+    bottom: -18px;
+    right: -8px;
+    border-bottom-color: #fff;
+  }
+  .dropdown-menu-arrow:before {
+    bottom: -17px;
+    right: -8px;
+    border-bottom-color: rgba(0,0,0,.15);
+  }
+.intro_image{
+    height: 450px; 
+    background-image: url('../images/coding3.jpeg');
+    background-size: cover;
+}
+.heading{
+    font-family:   Times, 'Times New Roman', serif;
+}
+.underlined_text{
+    text-decoration: underline;
+}
+.courses_card{
+    height: 400px;
+    min-width: 340px !important;
+    cursor: default; 
+}
+.courses_card img{
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.3s; 
+}
+.image_container{
+    height: 60%;
+    overflow: hidden;
+}
+.courses_card:hover img{
+    transform: scale(1.06,1.06);    
+}
+.premium_courses .premium_cards{
+    height: 450px;
+    min-width: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px dashed rgb(136, 132, 132) !important;
+}
+#enroll_button:hover{
+    background-color: black !important;
+}
+.navigation{
+    box-shadow: 0 2px 10px 3px rgb(180, 173, 173)
+}
+.premium_cards.active{
+    background-image: url('../images/coding3.jpeg');
+    background-size: cover;
+}
+.gallery_image{
+    cursor: zoom-in;
+    height: 300px;
+}
+.gallery_image:hover{
+    opacity: 0.6;
+}
+.inner_carousel{
+    width: 60% !important;
+}
+.another{
+    color: black;
+}
+.jumpbutron img{
+    width: 20%;
+}
+.video_container{
+    height: 100%;
+}
+.thumbnail{
+    z-index: -1;
+}
+.fa-play-circle{
+    position: absolute;
+    font-size: 70px;
+    bottom: 60%;
+    z-index: 1;
+}
+.check_video{
+    cursor: pointer;
+    font-size: 20px;
+}
+footer a:hover{
+    color: white !important;
+    text-decoration: none;
+}
+  @media only screen and (max-width: 850px){
+    
+    ul.navigation li:not(.brand_item){
+        display: none;
+    }
+  }

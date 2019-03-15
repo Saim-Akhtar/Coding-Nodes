@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coding Nodes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/nodes.css">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div id="codeslider" class="carousel slide carousel_container" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item first_slide active">
+                <div class="carousel-caption ">
+                    <h2 class="display-3 font-weight-normal">Online Tutorials</h2>
+                    <p class="lead">Tutorials Available On Your Favourite Topics</p>
+                </div>
+            </div>
+            <div class="carousel-item  second_slide">
+                <div class="carousel-caption">
+                    <h2 class="display-3 font-weight-normal">Premium Courses</h2>
+                    <p class="lead">Providing Premium Courses</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev my-auto bg-dark slider_icon " href="#codeslider" role="button"
+            data-slide="prev">
+            <span class="fas fa-arrow-left" aria-hidden="true"> </span>
+        </a>
+        <a class="carousel-control-next my-auto bg-dark slider_icon" href="#codeslider" role="button" data-slide="next">
+            <span class="fas fa-arrow-right" aria-hidden="true"></span>
+        </a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg text-black-50 font-weight-bold navbar-light bg-light fixed-top navigation">
+        <a class="navbar-brand col-5 text-center" href="#">
+            <img src="./images/logo.png" alt="logo" class="align-top" width="35px" height="35px">
+            Coding Nodes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">
+                        HOME
+                    </a>
+                </li>
+                <li class="nav-item dropdown_main">
+                    <span class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        COURSES
+                    </span>
+                    <div class="dropdown-menu bg-dark px-2">
+                        <span class="dropdown-menu-arrow"></span>
+                        <a href="#" class="font-weight-bold d-block my-3 text-white">Data Structures</a>
+                        <a href="#" class="font-weight-bold d-block  my-3 text-white">Design Patterns</a>
+                        <a href="#" class="font-weight-bold d-block my-3 text-white">Web Development</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        BOOKS
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        PREMIUM
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bold">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Now the Main Body -->
+    <div class="container-fluid main">
+        <div class="row intro_container">
+            <div class="col-6 intro_image"></div>
+            <div class="col-6 card p-lg-5 border-0">
+                <div class="card-body  mx-lg-5 ">
+                    <h2 class="card-title heading">Welcome To Coding Nodes</h2>
+                    <h5 class="card-subtitle text-success font-weight-light">Hello There</h5>
+                    <p class="card-text text-muted text-justify mt-5">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Deleniti
+                        odio laboriosam in recusandae expedita ducimus voluptatum provident doloremque
+                        doloribus, deserunt, ad maxime voluptas voluptatem ex qui quam saepe debitis dolorum!
+                    </p>
+                    <a href="#" class="btn btn-success card-link border rounded rounded-pill px-4 py-3 mt-5">View The
+                        Courses</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- List of our courses -->
+    <div class="bg-light">
+        <h1 class="display-4 text-center heading my-4 ">Our <span class="underlined_text">Cour</span>ses </h1>
+        <div class="card-deck container d-flex mx-auto mb-5 py-5">
+            <div class="card courses_card mb-5">
+                <a href="#" class="image_container"> <img class="card-img-top" src="./images/design patterns.jpg"
+                        alt="DP Course">
+                </a>
+                <div class="card-body">
+
+                    <h4 class="card-title">Design Patterns Course</h4>
+                    <span class="card-text d-inline"><i class="far fa-clock"></i> 10 Weeks</span>
+                    <span class="card-text d-inline ml-1"><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+            </div>
+            <div class="card courses_card  mb-5">
+                <a href="#" class="image_container"> <img class="card-img-top" src="./images/python.jpg"
+                        alt="Python Course">
+                </a>
+                <div class="card-body">
+
+                    <h4 class="card-title">Python Programming Course</h4>
+                    <span class="card-text d-inline"><i class="far fa-clock"></i> 10 Weeks</span>
+                    <span class="card-text d-inline ml-1"><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+            </div>
+            <div class="card courses_card mb-5">
+                <a href="#" class="image_container"> <img class="card-img-top" src="./images/c++.jpg" alt="C++ Course">
+                </a>
+                <div class="card-body">
+
+                    <h4 class="card-title">C++ Course</h4>
+                    <span class="card-text d-inline"><i class="far fa-clock"></i> 10 Weeks</span>
+                    <span class="card-text d-inline ml-1"><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+            </div>
+            <div class="card courses_card mb-5">
+                <a href="#" class="image_container"> <img class="card-img-top" src="./images/django.jpg"
+                        alt="Python Course">
+                </a>
+                <div class="card-body">
+
+                    <h4 class="card-title">Django Course</h4>
+                    <span class="card-text d-inline"><i class="far fa-clock"></i> 10 Weeks</span>
+                    <span class="card-text d-inline ml-1"><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+            </div>
+            <div class="card courses_card mb-5">
+                <a href="#" class="image_container"> <img class="card-img-top" src="./images/js.jpg" alt="JS Course">
+                </a>
+                <div class="card-body">
+
+                    <h4 class="card-title">JavaScript Course</h4>
+                    <span class="card-text d-inline"><i class="far fa-clock"></i> 10 Weeks</span>
+                    <span class="card-text d-inline ml-1"><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+            </div>
+            <div class="card courses_card mb-2">
+                <a href="#" class="image_container"> <img class="card-img-top" src="./images/daa.jpg" alt="DS Course">
+                </a>
+                <div class="card-body">
+
+                    <h4 class="card-title">Data Structures Course</h4>
+                    <span class="card-text d-inline"><i class="far fa-clock"></i> 10 Weeks</span>
+                    <span class="card-text d-inline ml-1"><i class="fas fa-signal"></i> Intermediate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Premium Courses -->
+    <div class="premium_courses font-weight-bold">
+        <h1 class="display-4 text-center heading my-4 ">Premium</h1>
+        <div class="card-deck container d-flex mx-auto mb-5 py-5">
+            <div class="card premium_cards p-3 active bg-success text-white">
+                <div class="card-body mx-auto text-center">
+                    <h3 class="card-title font-weight-light">Machine Learning</h3>
+                    <h1 class="display-4 card-title">10&dollar;</h1>
+
+                    <p class="card-text mt-4">
+                        14 Weeks Course
+                        50 hours
+                        4 Parts with Assignments
+                        5 Projects
+                    </p>
+
+
+                    <a href="#" class="card-link btn btn-success px-5 py-2 mt-5 border rounded-pill"
+                        id="enroll_button">Enroll now</a>
+
+                </div>
+            </div>
+            <div class="card premium_cards p-3">
+                <div class="card-body mx-auto text-center">
+                    <h3 class="card-title font-weight-light">Blockchain Beginners</h3>
+                    <h1 class="display-4 card-title">20&dollar;</h1>
+                    <p class="card-text mt-4">
+                        20 Weeks Course
+                        72 hours
+                        5 Parts with Assignments
+                        5 Projects
+                    </p>
+                    <a href="#" class="card-link btn btn-success px-5 py-2 mt-5  border rounded-pill">Enroll now</a>
+                </div>
+            </div>
+            <div class="card premium_cards p-3">
+                <div class="card-body mx-auto text-center">
+                    <h3 class="card-title font-weight-light">Cloud Computing</h3>
+                    <h1 class="display-4 card-title">15&dollar;</h1>
+                    <p class="card-text mt-4">
+                        16 Weeks Course
+                        58 hours
+                        3 Parts with Assignments
+                        2 Projects
+                    </p>
+                    <a href="#" class="card-link btn btn-success px-5 py-2 mt-5 border rounded-pill">Enroll now</a>
+                </div>
+            </div>
+            <div class="card premium_cards p-3">
+                <div class="card-body mx-auto text-center">
+                    <h3 class="card-title font-weight-light">Virtual Reality VR</h3>
+                    <h1 class="display-4 card-title">5&dollar;</h1>
+                    <p class="card-text mt-4">
+                        8 Weeks Course
+                        35 hours
+                        6 Parts with Assignments
+                        3 Projects
+                    </p>
+                    <a href="#" class="card-link btn btn-success px-5 py-2 mt-5 border rounded-pill">Enroll now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Images -->
+
+    <div class="my-5 py-5">
+        <h1 class="display-4 text-center heading my-4 ">Programming Gallery</h1>
+        <div class="row no-gutters">
+            <img src="./images/programming1.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming2.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming3.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming4.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming5.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming6.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming7.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming8.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming1.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming2.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming3.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+            <img src="./images/programming4.jpg" alt="images" class="col-12 col-md-6 col-lg-3 gallery_image"
+                data-toggle="modal" data-target="#show_gallery_modal">
+
+        </div>
+        <!-- Modal -->
+        <div id="show_gallery_modal" class="modal carousel slide" role="dialog" tabindex="-1" data-ride="carousel">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close text-center" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/programming1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming3.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming4.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming5.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming6.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming7.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming8.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming3.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/programming4.jpg">
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#show_gallery_modal" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#show_gallery_modal" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid bg-light video_container">
+        <div id="show_video" class="modal carousel slide" role="dialog" tabindex="-1" data-ride="carousel">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close text-center" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <video poster="./images/python.jpg" controls muted draggable="true" width="400px" height="500px">
+                        
+                        <source src="https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 px-5 my-2">
+                <div class="thumbnail  text-center" data-toggle="modal" data-target="#show_video">
+                    <img src="./images/python.jpg" class="img-fluid" alt="python image">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 px-5 mt-5">
+                <h1 class="display-4 heading ">Watch Video</h1>
+                <p class="mr-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi Lorem ipsum dolor sit
+                    amet, consectetur adipisicing elit. Odit nobis magni eaque velit eum, id rem eveniet dolor
+                    possimus voluptas..
+                </p>
+                <a class="text-success check_video" data-toggle="modal" data-target="#show_video">
+                    Watch Video
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- What People Say -->
+    <div class="bg-light container-fluid mt-5 pt-5">
+        <h1 class="display-4 text-center heading my-4 ">What People Say</h1>
+        <div id="bookslider" class="carousel slide container" data-ride="carousel">
+            <div class="carousel-inner inner_carousel mx-auto py-4" role="listbox">
+                <div class="carousel-item active">
+                    <div class="jumpbutron">
+                        <img src="https://pbs.twimg.com/profile_images/966122526580658176/DTLN3RSw_400x400.jpg"
+                            alt="Mar Manson image">
+                        <h2>Mark Manson</h2>
+                        <p>Lorem ipsizzle dolor sit yo, consectetuer adipiscing break yo neck, yall. Nullizzle i
+                            saw
+                            beyonces tizzles and my pizzle went crizzle velizzle, gangster volutpizzle, brizzle
+                            quis,
+                            uhuh </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="jumpbutron">
+                        <img src="https://statics.sportskeeda.com/editor/2018/03/a4a7b-1520474015-800.jpg"
+                            alt="Mark Manson image">
+                        <h2>Michael Jordan</h2>
+                        <p>Lorem ipsizzle dolor sit yo, consectetuer adipiscing break yo neck, yall. Nullizzle i
+                            saw
+                            beyonces tizzles and my pizzle went crizzle velizzle, gangster volutpizzle, brizzle
+                            quis,
+                            uhuh </p>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="jumpbutron">
+                        <img src="https://i2.wp.com/www.nationalreview.com/wp-content/uploads/2019/01/michael-jackson-trial2-2005.jpg?fit=789%2C460&ssl=1"
+                            alt="Mar Manson image">
+                        <h2>Michael Jackson</h2>
+                        <p>Lorem ipsizzle dolor sit yo, consectetuer adipiscing break yo neck, yall. Nullizzle i
+                            saw
+                            beyonces tizzles and my pizzle went crizzle velizzle, gangster volutpizzle, brizzle
+                            quis,
+                            uhuh </p>
+                    </div>
+
+                </div>
+            </div>
+            <a class="carousel-control-prev my-auto slider_icon " href="#bookslider" role="button" data-slide="prev">
+                <span class="fas fa-arrow-left another" aria-hidden="true"> </span>
+            </a>
+            <a class="carousel-control-next my-auto slider_icon" href="#bookslider" role="button" data-slide="next">
+                <span class="fas fa-arrow-right another" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <footer class="container-fluid bg-dark py-5">
+        <div class="row container mx-auto font-weight-bold">
+            <div class="col-12 col-md-4">
+                <h3 class="text-white">About</h3>
+                <p class="text-muted">Lorem ipsizzle dolor sit yo, consectetuer adipiscing break yo neck, yall.
+                    Nullizzle i saw
+                    beyonces tizzles and my pizzle went crizzle</p>
+
+                <a href="#" class="btn btn-success py-2 px-3 border rounded-pills text-white">Read More</a>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="text-white">Quick Menu</h3>
+                <ul class="list-unstyled ">
+                    <li class="my-2"><a href="#" class="text-muted">About</a></li>
+                    <li class="my-2"><a href="#" class="text-muted">Features</a></li>
+                    <li class="my-2"><a href="#" class="text-muted">Courses</a></li>
+                    <li class="my-2"><a href="#" class="text-muted">Tutorials</a></li>
+                    <li class="my-2"><a href="#" class="text-muted">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="text-white">Social Icons</h3>
+                <ul class="list-unstyled">
+                    <li class="my-2"><a href="#" class="text-muted"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="my-2"><a href="#" class="text-muted"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="my-2"><a href="#" class="text-muted"><i class="fab fa-instagram"></i></a></li>
+                    <li class="my-2"><a href="#" class="text-muted"><i class="fab fa-github"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-white-50 font-weight-bold mt-5">
+            <p>CopyRights 2019 &copy; Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
